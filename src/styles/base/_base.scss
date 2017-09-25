@@ -1,0 +1,13 @@
+@import '~styles/utils/_vars';
+
+// Global style definitions for the whole app.
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	font-size: 14px;
+	font-family: Open Sans, Helvetica Neue, Helvetica, sans-serif;
+	background-color: $bg-color;
+}
